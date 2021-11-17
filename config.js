@@ -1,7 +1,7 @@
 let fs = require('fs')
 let chalk = require('chalk')
 
-global.owner = ['6281515860089', '6281334177340'] // Put your number here
+global.owner = ['6281515860089', '6281334177340,'] // 082245255702
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
@@ -30,7 +30,7 @@ if (stickerpack.spackname == '') {
   var sticker_name = 'I hope you\'re fine'
   var sticker_author = 'Nurutomo'
 } else {
-  var sticker_name = stickerpack.spackname
+  var sticker_name = sticker nisss.spackname
   var sticker_author = stickerpack.sauthor
 }
 
